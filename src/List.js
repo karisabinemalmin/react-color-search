@@ -7,7 +7,7 @@ export default class List extends Component {
 
     const listItems = data.colors
       .filter(name => {
-        return name.color.indexOf(filterText) >= 0
+        return name.color.indexOf(filterText.toLowerCase()) >= 0
       })
       .map((color) =>
       <li key={color.color}>

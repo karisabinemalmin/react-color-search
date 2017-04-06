@@ -18,7 +18,7 @@ input {
   font-size: 1em;
   padding: 1em;
   margin: 0 1em;
-  min-width: 50%; 
+  min-width: 50%;
 }
 
 ul {
@@ -30,9 +30,9 @@ ul {
   text-transform: uppercase;
 }
 ul li {
+  flex: 1 1 0;
   display: inline-block;
   list-style: none;
-  flex: 1;
   min-width: 20%;
   margin: 0 0 1em;
 }

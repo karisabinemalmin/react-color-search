@@ -31,7 +31,6 @@ ul {
 }
 ul li {
   flex: 1 1 0;
-  display: inline-block;
   list-style: none;
   min-width: 20%;
   margin: 0 0 1em;

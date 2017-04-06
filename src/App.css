@@ -29,8 +29,9 @@ ul {
   font-size: .7em;
   text-transform: uppercase;
 }
+
 ul li {
-  flex: 1 1 0;
+  flex: 1 1 auto;
   list-style: none;
   min-width: 20%;
   margin: 0 0 1em;
